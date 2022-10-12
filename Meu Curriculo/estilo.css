@@ -1,0 +1,60 @@
+body h1,
+h2,
+h3,
+h4,
+h5 {
+    color: rgb(240, 240, 255)
+}
+
+.topo {
+    height: 210px;
+    border-bottom: 100;
+    background-image: url("img/header.jpg");
+    background-size: cover;
+}
+
+.img-perfil {
+    height: 100%;
+    width: auto;
+    margin-left: 30px;
+    border: black solid 5px;
+}
+
+.centralizar-vertical {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    margin-left: 80px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-icone {
+    height: 50px;
+    width: 50px;
+}
+
+.navegacao {
+    background-color: #212529;
+}
+
+.navegacao a {
+    border-radius: 0;
+}
+
+.fundo {
+    background-color: #212529;
+    color: rgb(240, 240, 255);
+    border-radius: 15px 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    height: 50px;
+}
